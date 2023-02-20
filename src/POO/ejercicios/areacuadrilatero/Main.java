@@ -20,5 +20,6 @@ public class Main {
         }
         System.out.println("el perimetro es: "+c1.getPerimetro());
         System.out.println("el area es: "+c1.getArea());
+
     }
 }
