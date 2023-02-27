@@ -52,7 +52,7 @@ public class Aeropuerto {
         int i = 0;
         Compania compania = null;
         while((!encontrado) && (i < listaCompania.length)) {
-            if(nombre.equals(listaCompania[i].getNombreCompania())) {
+            if(listaCompania[i].getNombreCompania().equals(nombre)) {
                 encontrado = true;
                 compania = listaCompania[i];
             }
